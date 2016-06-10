@@ -2,6 +2,12 @@ language: node_js
 node_js:
   - '0.8'
   - '0.10'
+env:
+  global:
+    - CI=true
+  matrix:
+    - TEST_DOC=false
+    - TEST_DOC=true
 before_install:
   - currentfolder=${PWD##*/}
   - if [ "$currentfolder" != 'generator-simple-project' ]; then cd .. && eval "mv $currentfolder generator-simple-project" && cd generator-simple-project; fi
