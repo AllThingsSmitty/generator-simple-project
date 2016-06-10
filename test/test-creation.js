@@ -11,7 +11,7 @@ describe('simple generator', function () {
         return done(err);
       }
 
-      this.app = helpers.createGenerator('simple:app', [
+      this.app = helpers.createGenerator('simple-project:app', [
         '../../app'
       ]);
       done();
