@@ -1,6 +1,6 @@
 {
   "name": "generator-simple-project",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "A tiny Yeoman generator for quickly sketching ideas",
   "keywords": [
     "yeoman-generator"
