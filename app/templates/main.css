@@ -1,0 +1,22 @@
+body,
+html {
+  height: 100%
+}
+html {
+  background: #f1f2f3;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  background: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+  color: #444;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 825px;
+}
+.container {
+  background: #fff;
+  border-top: 20px solid #2196f3;
+  padding: 2em;
+}
